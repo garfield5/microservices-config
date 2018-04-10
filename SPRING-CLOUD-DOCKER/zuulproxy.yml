@@ -18,12 +18,12 @@ zuul:
         card-service:
             path: /cardservice/**
             serviceId: cardservice
-#            stripPrefix: true
+            stripPrefix: true
         statement-service:
             path: /statementservice/**
             serviceId: statementservice
-#            stripPrefix: true
+            stripPrefix: true
         card-statement-composite:
             path: /card-statement-composite/**
             serviceId: card-statement-composite
-#            stripPrefix: true
+            stripPrefix: true
