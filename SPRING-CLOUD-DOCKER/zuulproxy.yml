@@ -16,12 +16,12 @@ zuul:
             path: /helloservice/**
             sensitiveHeaders: Cookie,Set-Cookie
         card-service:
-            path: /card-service/**
-            serviceId: card-service
+            path: /cardservice/**
+            serviceId: cardservice
 #            stripPrefix: true
         statement-service:
-            path: /statement-service/**
-            serviceId: statement-service
+            path: /statementservice/**
+            serviceId: statementservice
 #            stripPrefix: true
         card-statement-composite:
             path: /card-statement-composite/**
